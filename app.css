@@ -1,0 +1,189 @@
+
+rt url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/*font icons*/
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+    font-size: 65px;
+    }
+
+    /*main design*/
+
+    body{
+      margin: 5%;
+        border: 7px solid white;
+          position: relative;
+            background-color: rgba(255, 255, 255, 0);
+              
+              }
+
+              * {
+                -webkit-box-sizing: border-box;
+                     -moz-box-sizing: border-box;
+                               box-sizing: border-box;
+                               }
+
+                               header{
+                                float: top;
+                                  height: 100%;
+                                    width: 100%;
+                                        padding: 15% 0% 15% 20%;
+                                            color: white;
+                                                background-color: ;
+                                                  background-image: url("https://lh3.googleusercontent.com/gFpVVgaCKNQkDFk7ju0YiFZosStx_51QxnLw-1ukmGzN1HsdZ6kx58-GM5g58ZBvTrdLwfVR=w1366-h768-rw-no"); /*picture opacity >> opacity:0.5*/
+                                                    background-attachment: fixed, fixed, fixed, scroll;
+                                                      background-position: 0 0, 0 0, -5px -25px, 0 50%;
+                                                        background-repeat: no-repeat;
+                                                          background-size: cover;
+                                                              text-align: ;
+                                                                margin: 0px 0px 0px 0px; /*up100, right150, down0, left80*/
+                                                                  
+                                                                  }
+
+                                                                  h1{
+                                                                      font-size: 80px;
+                                                                        font-weight: normal;
+                                                                          font-family: fantasy; 
+                                                                            text-decoration: overline;
+                                                                              transition: font-size 0.4s ease-out;
+                                                                                  transition-property: font-size;
+                                                                                      transition-duration: 0.4s;
+                                                                                          transition-timing-function: ease-out;
+                                                                                              transition-delay: 0.1s;
+                                                                                              }
+
+                                                                                              h1:hover{
+                                                                                                  font-size: 120px;
+                                                                                                  }
+
+                                                                                                  h2{
+                                                                                                    padding-top: 2px;
+                                                                                                      padding-bottom: 30px;
+                                                                                                        border-top: none;
+                                                                                                          color: #e2e2e2;
+                                                                                                            font-size: 1.6em;
+                                                                                                              font-style: italic;
+                                                                                                                font-family: verdemoderna;
+                                                                                                                }
+
+                                                                                                                h3{
+                                                                                                                  font-size: 130%;
+                                                                                                                    font-weight: bold;
+                                                                                                                    }
+
+                                                                                                                    #sidebar{
+                                                                                                                      position: absolute;
+                                                                                                                        top: 32%;
+                                                                                                                            bottom: 0;  
+                                                                                                                                left: 65%;
+                                                                                                                                  right: ;
+                                                                                                                                    height: auto;
+                                                                                                                                        width: 35%;
+                                                                                                                                            float:right;
+                                                                                                                                              border-style: solid;
+                                                                                                                                                border-width: 0px;
+                                                                                                                                                  margin: 0px 0px 0px 0px; /*right 150*/
+                                                                                                                                                    padding: 10px 10px 10px 100px;
+                                                                                                                                                        background-color: rgba(170,186,164,0);
+                                                                                                                                                          color: white;
+                                                                                                                                                          }
+
+
+
+                                                                                                                                                          .mainbody{
+                                                                                                                                                            height: auto;
+                                                                                                                                                              width: 65%;
+                                                                                                                                                                float: left;
+                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                        border-width: 0px;
+                                                                                                                                                                            margin: 0px 0px 0px 0px; /*left 80*/
+                                                                                                                                                                              padding: 7.5% 7.5% 6% 15%;
+                                                                                                                                                                                  background-color:rgba(227,227,227,0.5); /*opacity*/
+                                                                                                                                                                                    font-family: 'Julius Sans One', sans-serif; 
+                                                                                                                                                                                      color: #474747;
+                                                                                                                                                                                      }
+
+
+
+                                                                                                                                                                                      p{
+                                                                                                                                                                                        line-height: 200%;
+                                                                                                                                                                                          font-family: verdemoderna;
+                                                                                                                                                                                            text-align: justify;
+                                                                                                                                                                                                text-justify:inter-ideograph; 
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                .lighten{
+                                                                                                                                                                                                    font-size: 120%;
+                                                                                                                                                                                                      text-decoration: underline;
+                                                                                                                                                                                                        transition: font-size,background-color, 0.25s ease-out;
+                                                                                                                                                                                                            transition-property: font-size,background-color;
+                                                                                                                                                                                                                transition-duration: 0.4s, 0.4s;
+                                                                                                                                                                                                                    transition-timing-function: ease-out, ease-out;
+                                                                                                                                                                                                                        transition-delay: 0s, 0s;
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        .lighten:hover{
+                                                                                                                                                                                                                            font-size: 250%;
+                                                                                                                                                                                                                              background-color: yellow;
+                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                              .underline{
+                                                                                                                                                                                                                                text-decoration: underline;
+                                                                                                                                                                                                                                    transition: background-color, 0.4s ease-out;
+                                                                                                                                                                                                                                        transition-property: background-color;
+                                                                                                                                                                                                                                            transition-duration: 0.4s;
+                                                                                                                                                                                                                                                transition-timing-function: ease-out;
+                                                                                                                                                                                                                                                    transition-delay: 0s; 
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                    .underline:hover{
+                                                                                                                                                                                                                                                      font-size: 120%;
+                                                                                                                                                                                                                                                          background-color: yellow;
+                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                          #footer1{
+                                                                                                                                                                                                                                                            clear:both;
+                                                                                                                                                                                                                                                              background-color:rgba(144,173,160,1);
+                                                                                                                                                                                                                                                                text-align:center;
+                                                                                                                                                                                                                                                                  height:300px;
+                                                                                                                                                                                                                                                                    line-height:80px;
+                                                                                                                                                                                                                                                                      margin: 0px 0px 0px 0px; /*right 155 left 80*/
+                                                                                                                                                                                                                                                                      }
+
+
+
+                                                                                                                                                                                                                                                                      footer {
+                                                                                                                                                                                                                                                                        float: bottom;
+                                                                                                                                                                                                                                                                            clear: both;
+                                                                                                                                                                                                                                                                              margin: ;
+                                                                                                                                                                                                                                                                                  padding: 3em 10%;
+                                                                                                                                                                                                                                                                                      color: white;
+                                                                                                                                                                                                                                                                                          background: rgba(40, 54, 42, 1);
+                                                                                                                                                                                                                                                                                              text-align: center;
+                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                              footer a {
+                                                                                                                                                                                                                                                                                                  width: 72px;
+                                                                                                                                                                                                                                                                                                      height: 72px;
+                                                                                                                                                                                                                                                                                                          padding: ;
+                                                                                                                                                                                                                                                                                                              margin: 0 3em;
+                                                                                                                                                                                                                                                                                                                display: inline-block;
+                                                                                                                                                                                                                                                                                                                    overflow: hidden;
+                                                                                                                                                                                                                                                                                                                      position: relative;
+                                                                                                                                                                                                                                                                                                                          color: rgba(255, 255, 255, 0.2);
+                                                                                                                                                                                                                                                                                                                              transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+                                                                                                                                                                                                                                                                                                                                  transition-property: color, box-shadow;
+                                                                                                                                                                                                                                                                                                                                      transition-duration: 0.25s, 0.25s;
+                                                                                                                                                                                                                                                                                                                                          transition-timing-function: ease-out, ease-out;
+                                                                                                                                                                                                                                                                                                                                              transition-delay: 0s, 0s;
+                                                                                                                                                                                                                                                                                                                                                background: rgba(40, 54, 42, 1);
+                                                                                                                                                                                                                                                                                                                                                   text-decoration: none
+                                                                                                                                                                                                                                                                                                                                                   }
+
+                                                                                                                                                                                                                                                                                                                                                   footer a:hover{
+                                                                                                                                                                                                                                                                                                                                                    color: rgba(255, 255, 255, 0.8);  
+                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                    
