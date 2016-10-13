@@ -1,16 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
 
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 /*font icons*/
 
 /* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-    font-size: 65px;
-    }
+
+
+
+
 
     /*main design*/
-
+.material-icons {
+    font-family: 'Material Icons';
+        font-weight: normal;
+            font-style: normal;
+                 font-size: 75px;    
+                }
     body{
       
         margin: 5%;
