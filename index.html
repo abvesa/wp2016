@@ -2,8 +2,8 @@
 <html>
 <head>
 
-<script src="app.js" ></script>
-<link href="app.css" rel="stylesheet" type="text/css" />
+<script src="tscript.js" ></script>
+<link href="tcss.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -11,11 +11,8 @@
 <button id="r" onwheel="adjust(this)" ><p id="writeR"></p></button>
 <button id="g" onwheel="adjust(this)" ><p id="writeG"></p></button>
 <button id="b" onwheel="adjust(this)" ><p id="writeB"></p></button>
-<button id="rgb" ></button>
-
-<h2>Wheel Delta value: <span id="wheelvalue"></span></h2>
+<button id="rgb" onmouseover="invert(this)" onwheel="random(this)" onclick="change(this)"></button>
 
 </body>
 </html>
-
 
