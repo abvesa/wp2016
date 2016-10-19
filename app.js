@@ -1,5 +1,5 @@
 
-n invert(elem) {
+function invert(elem) {
   var color = window.getComputedStyle(elem, null).getPropertyValue("background-color");
     var rgb = /rgb\((\d+), (\d+), (\d+)\)/.exec(color);
         var r = 255-rgb[1],
