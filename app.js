@@ -1,4 +1,23 @@
 
+function fixed(r1,g1,b1){
+
+  var rfix = "rgb(" + r1 + "," + 0 + "," + 0 + ")";
+    var gfix = "rgb(" + 0 + "," + g1 + "," + 0 + ")";
+      var bfix = "rgb(" + 0 + "," + 0 + "," + b1 + ")";
+        
+          document.getElementById("r").style.backgroundColor = rfix;
+            document.getElementById("g").style.backgroundColor = gfix;
+              document.getElementById("b").style.backgroundColor = bfix;
+                
+                  var rshow = rfix.toString();
+                    var gshow = gfix.toString();
+                      var bshow = bfix.toString();  
+
+                          document.getElementById("writeR").innerHTML = rshow;
+                            document.getElementById("writeG").innerHTML = gshow;
+                              document.getElementById("writeB").innerHTML = bshow;
+                              }
+
 function invert(elem) {
   var color = window.getComputedStyle(elem, null).getPropertyValue("background-color");
     var rgb = /rgb\((\d+), (\d+), (\d+)\)/.exec(color);
@@ -10,7 +29,7 @@ function invert(elem) {
                                   
                                     var show = col.toString();
                                       document.getElementById("write").innerHTML = show;
-                                        
+                                        fixed(r,g,b);
                                         }
 
                                         function change(elem){
@@ -22,6 +41,7 @@ function invert(elem) {
                                                                   var col = "rgb(" + r + "," + g + "," + b + ")";
                                                                     document.body.style.color = col;
                                                                       document.body.style.backgroundColor = color;
+                                                                      
                                                                       }
 
 
@@ -34,6 +54,7 @@ function invert(elem) {
                                                                                         
                                                                                           var show = col.toString();
                                                                                             document.getElementById("write").innerHTML = show;
+                                                                                            fixed(r,g,b);
                                                                                             }
 
 
