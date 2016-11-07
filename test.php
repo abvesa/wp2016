@@ -1,8 +1,12 @@
 <html>
 <body>
 
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+Welcome 
+<?php
+$name = $_REQUEST['name'];
+$email = $_REQUEST['email'];
+echo "Your name is $name, Your email is $email";
+?>
 
 </body>
 </html>
