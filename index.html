@@ -2,32 +2,15 @@
 <html>
 <head>
 
-<script src="app.js" ></script>
-<link href="app.css" rel="stylesheet" type="text/css" />
-
 </head>
+
 <body>
+<form action="test_c.cgi">
+  <input name="name" placeholder="nickname" type="text">
+    <input name="age" placeholder="trueage" type="text">
+      
+        <button type="submit">Submit</button>
+        </form>
 
-<h3>Hi, this is ABVESA speaking.</h3>
-<h3>This is a website that you can adjust your background color by your own.</h3>
-<p>1. Scroll your mouse wheel up and down over the RED, GREEN, BLUE buttons to find your favorate color.</p>
-<p>2. Click on the combine color shows on the right button to change your background color.</p>
-<p>3. OOPS, Be careful the color will invert when you hover it.</p>
-<p>4. You may also scroll your mousewheel over the right button to randomly get colors.</p>
-<p>5. At last, just have some fun !!!</p>
-<br \><br \>
-
-<h3># Other functions wanna do</h3>
-<p>1. Add buttons that you can choose what element you want to change color.</p>
-<p>2. Prevent scrolling the whole page when scrolling on the buttons.</p>
-<br \><br \>
-
-<button id="r" onwheel="adjust(this)" ><p id="writeR"></p></button>
-<button id="g" onwheel="adjust(this)" ><p id="writeG"></p></button>
-<button id="b" onwheel="adjust(this)" ><p id="writeB"></p></button>
-<button id="rgb" onmouseover="invert(this)" onwheel="random(this)" onclick="change(this)"></button>
-
-</body>
-</html>
-
-
+        </body>
+        </html>
